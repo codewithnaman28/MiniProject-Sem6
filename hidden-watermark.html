@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CipherSeal - Hidden Watermarking App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">
+            <!-- <img src="Demo/assets/1.png" alt="CipherSeal Logo"> -->
+            <a href="index.html" class="logo">CIPHERSEAL</a>
+        </div>
+        <div class="navbar-links">
+            <a href="index.html" class="nav-link">HOME</a>
+            <a href="hidden-watermark.html" class="nav-link">HIDDEN WATERMARK</a>
+            <a href="about.html" class="nav-link">ABOUT</a>
+            <a href="help.html" class="nav-link">HELP</a>
+        </div>
+    </nav>
+
+    
+    <!-- Main Container for the App -->
+    <div class="container">
+        <h1>Images</h1>
+        <p class="subtitle">Secure Your Images with Hidden Watermarks</p>
+        
+        <!-- Rest of the app content -->
+        <div class="input-section">
+            <label for="imageInput">Upload Image:</label>
+            <input type="file" id="imageInput" accept="image/*">
+        </div>
+
+        <div class="buttons-section">
+            <button id="embedButton">
+                <span>Embed Watermark</span>
+                <svg width="15" height="15" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" stroke-linejoin="round" stroke-linecap="round"></path>
+                </svg>
+            </button>
+            <button id="decodeButton">
+                <span>Decode Watermark</span>
+                <svg width="15" height="15" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" stroke-linejoin="round" stroke-linecap="round"></path>
+                </svg>
+            </button>
+        </div>
+
+        <div class="output-section">
+            <h2>Decoded Watermark</h2>
+            <p id="decodedWatermark"></p>
+        </div>
+    </div>
+
+    <!-- <script type="text/javascript" src="../Demo/Brython-3.12.3/brython.js"></script>
+    <script src="script.js"></script>
+  -->
+
+<!-- Include Brython -->
+<script src="./brython.js" async></script>
+
+<!-- Your script.js -->
+<script src="./script.js"></script>
+
+</body>
+</html>

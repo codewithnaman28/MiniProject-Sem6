@@ -1,0 +1,209 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #2a2a2a;
+}
+
+.logo img {
+    height: 40px;  /* Keep height as desired */
+    width: auto;   /* Allow width to adjust proportionally */
+    max-width: 200px; /* Set maximum width to prevent oversized logos */
+    color: #ffffff;
+}
+
+.logo{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    transition: color 0.3s;
+}
+
+.navbar-links .nav-link {
+    margin-left: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    transition: color 0.3s;
+}
+
+.navbar-links .nav-link:hover {
+    color: #ff4500; /* Orange color for hover effect */
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #2a2a2a;
+    color: #ffffff;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.hero h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.slogan {
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+/* About Section */
+.aboutus {
+    text-decoration: none;
+}
+
+.about {
+    padding: 60px 20px;
+    background-color: #2a2a2a;
+    color: #ffffff;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #ff4500; /* Orange color for heading */
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about ul {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Help Section */
+.help {
+    padding: 60px 20px;
+    background-color: #2a2a2a;
+    color: #ffffff;
+    text-align: center;
+}
+
+.help h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #ff4500; /* Orange color for heading */
+    margin-bottom: 20px;
+}
+
+.help p {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Main Container */
+.container {
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 40px;
+    background-color: #2a2a2a;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+}
+
+/* Input Styles */
+.input-section {
+    margin-bottom: 30px;
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: block;
+    color: #ffffff;
+}
+
+input[type="file"] {
+    padding: 12px;
+    width: 100%;
+    border: 1px solid #555;
+    border-radius: 8px;
+    background-color: #333;
+    color: #ffffff;
+}
+
+/* Button Styles */
+button {
+    padding: 12px 24px;
+    margin-top: 15px;
+    cursor: pointer;
+    background-color: #ff4500;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #d43f00; /* Darker shade of orange for hover effect */
+}
+
+/* Heading and Paragraph Styles */
+h1, h2 {
+    color: #ffffff;
+}
+
+p {
+    color: #cccccc;
+}
+
+button {
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    border-radius: 10px;
+    border: 1px solid #F2BED1;
+    padding: 10px 20px;
+    background-color: #ff4500;
+    display: flex;
+  }
+  
+  button > svg {
+    margin-left: 5px;
+    transition: all 0.4s ease-in;
+  }
+  
+  button:hover > svg {
+    font-size: 1.2em;
+    transform: translateX(6px);
+  }
+  
+  button:hover {
+    box-shadow: 10px 10px 40px #d1d1d1;
+    transform: translateY(-5px);
+  }
